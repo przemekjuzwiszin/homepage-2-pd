@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="link">
+        <a href="index.html">Strona główna</a>
+        <a href="bem.html">BEM</a>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h1 class="articleHeading">
+                    BEM.
+                </h1>
+            </header>
+            <p>
+                Tworzymy klasy wyobrażając sobie części strony internetowej jako bloki. Bloki nazywamy dając im klasy.
+                Poszczególne elementy bloku mają też tą samą nazwę klasy co blok plus po dwóch dolnych myślnikach
+                dodatkową nazwę. Modyfikator dodajemy powtarzając klasę, dwoma myślniki i unikalną nazwę dla elementu. W
+                BEM stosujemy małe litery, bez skrótów, bez zagnieżdżeń. Każdy element może mieć więcej niż jedną klasę.
+                W pliku CSS przenosimy hierarchię z HTML-a, najlepiej w kolejności alfabetycznej, trzymając bloki
+                oddzielnie aby łatwo odnajdywać poszczególne elementy.
+            </p>
+            <footer>
+                <img src="bem.jpg" alt="Zdjęcie ciastek z podziałem na blok element mofifier">
+                Autorem jest Przemek Juzwiszin.
+            </footer>
+        </article>
+    </main>
+    <footer class="footer">
+        Strona domowa Przemka Juzwiszin, która powstała dzięki udziale w szkoleniu: Co ten frontend? Szkolenie trwa
+        12 tydodni.
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
