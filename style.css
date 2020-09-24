@@ -10,6 +10,7 @@ body {
 
 
 
+
 .main{}
 
 .main__header {}
@@ -18,6 +19,8 @@ body {
 color: tomato;
 font-size: 40px;
 }
+
+
 
 
 .about {}
@@ -34,13 +37,27 @@ font-size: 40px;
 
 
 
-.diaryHeading {
+.diary {}
+
+.diary__header {
 	color: midnightblue;
 	font-size: 35px;
 }
-.articleHeading {
+
+.diary__section {
+}
+
+.diary__heading--color {
 	color: indigo;
 }
+
+.diary__paragraph {
+}
+
+.diary__link {}
+
+
+
 .footer {
 	color: rgb(0, 26, 255);
 }
