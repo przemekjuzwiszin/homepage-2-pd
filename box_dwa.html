@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,25 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="box_dwa.html">Box 2</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="box_dwa.html">Box 2</a>
     </header>
-    <main>
-        <section>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <section class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Box model. Życie w pudełku cz. 2
                 </h1>
             </header>
-            <p>
-                Poznajemy znacznik div. Różnicę między content-box a border-boxem. Działanie i wykorzystanie z-index. Przemieszczanie elementów na stronie używając position fixed, sticky, clear. Tworzymy dwa boxy i bawimy się przemieszczając je na stronie. Tworzymy menu na górze i na dole strony które nie znika po scrollowaniu. Uczymy się również jak stosować float.
+            <p class="article__paragraph">
+                Poznajemy znacznik div. Różnicę między content-box a border-boxem. Działanie i wykorzystanie z-index.
+                Przemieszczanie elementów na stronie używając position fixed, sticky, clear. Tworzymy dwa boxy i bawimy
+                się przemieszczając je na stronie. Tworzymy menu na górze i na dole strony które nie znika po
+                scrollowaniu. Uczymy się również jak stosować float.
             </p>
-            <footer>
-                <img src="box_dwa.jpg" alt="Szkic box modelu z opisem">
+            <footer class="article__footer">
+                <img class="article__picture" src="box_dwa.jpg" alt="Szkic box modelu z opisem">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </section>
@@ -34,4 +38,5 @@
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>
