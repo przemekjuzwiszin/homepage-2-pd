@@ -9,16 +9,16 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="jak-dziala-pod.html">Jak działa</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="jak-dziala-pod.html">Jak działa</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">Jak działa internet i przeglądarka.</h1>
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">Jak działa internet i przeglądarka.</h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Dowiedziałem się co to są protokoły HTTP, HTTPS. Poznałem nową zakładkę, o nazwie network w
                 narzędziach developerskich w Google Chrome, która służy do podpatrywania ruchu sieciowego, w
                 wyświetonej stronie i szukaniu błędów. Poznałem nazwy błędów, ich znaczenie. Komiunikacja pomiędzy
@@ -26,8 +26,8 @@
                 jego brak będzie powodował problem ze znalezieniem zawartości i wyświetleniem błędu. Poznałem co to
                 są ścieżki bezwzględne i względne.
             </p>
-            <footer>
-                <img src="jak-dziala-pod.png" alt="Grafika kuli ziemskiej i lupy" />
+            <footer class="article__footer">
+                <img class="article__picture" src="jak-dziala-pod.png" alt="Grafika kuli ziemskiej i lupy" />
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>
