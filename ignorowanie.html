@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="ignorowanie.html">Ignorowanie</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="ignorowanie.html">Ignorowanie</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Ignorowanie.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 W Gicie możemy dodać plik .gitignore, który będzie ignorował podane przez nas wzorzec. Wyróżniamy dwa
                 rodzaje ignorowania plików. Dzieli się on na pliki śledzone przez Gita i nie śledzone. Pliki ignorowane
                 można skonfigurować lokalnie, prywatnie lub globalnie. Zastosowanie może mieć również sposób ignorowania
@@ -28,8 +28,9 @@
                 również tą zmianą z zespołem ale na naszej maszynie zmiana ta będzie widoczna. Pamiętajmy tylko aby plik
                 taki następnie przywrócić z powrotem gdy będziemy chcieli coś zacommitować.
             </p>
-            <footer>
-                <img src="ignorowanie.jpg" alt="Zdjęcie logo Gita z napisem understanding .gitignore and its usage">
+            <footer class="article__footer">
+                <img class="article__picture" src="ignorowanie.jpg"
+                    alt="Zdjęcie logo Gita z napisem understanding .gitignore and its usage">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>
