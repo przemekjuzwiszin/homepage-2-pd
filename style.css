@@ -8,20 +8,14 @@ body {
 	color: yellowgreen;
 }
 
-
-
-
-.main{}
+.main {}
 
 .main__header {}
 
 .main__heading {
-color: tomato;
-font-size: 40px;
+	color: tomato;
+	font-size: 40px;
 }
-
-
-
 
 .about {}
 
@@ -34,9 +28,6 @@ font-size: 40px;
 
 .about__link {}
 
-
-
-
 .diary {}
 
 .diary__header {
@@ -44,21 +35,32 @@ font-size: 40px;
 	font-size: 35px;
 }
 
-.diary__section {
-}
+.diary__section {}
 
 .diary__heading--color {
 	color: indigo;
 }
 
-.diary__paragraph {
-}
+.diary__paragraph {}
 
 .diary__link {}
 
+.main__article {}
 
+.article {}
+
+.article__heading {}
+
+.article__title {
+	color: #0496FF
+}
+
+.article__paragraph {}
+
+.article__footer {}
+
+.article__picture {}
 
 .footer {
 	color: rgb(0, 26, 255);
 }
-
