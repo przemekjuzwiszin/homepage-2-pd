@@ -9,26 +9,27 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="box.html">Box</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="box.html">Box</a>
     </header>
-    <main>
-        <section>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <section class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Box model. Życie w pudełku cz. 1.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Poznałem pojęcie box modelu. Jak działa i z czego się składa. Box model dzieli się na element, padding,
                 border i margin. Każda z warstw box modelu odpowiada za inną część boxu. W lekcji poruszane również
                 było, zastosowanie nowych wartości m. in. display, width, height, overflow. Rozmieszczanie tekstu na
                 stronie zgodnie z box modelem. Jednostki poruszane w lekcji to pixele, procenty oraz viewport width
                 procent, który nie jest zależny od rodzica.
             </p>
-            <footer>
-                <img src="box.jpg" alt="Zdjęcie box modelu z podziałem na content, padding, border, margin">
+            <footer class="article__footer">
+                <img class="article__picture" src="box.jpg"
+                    alt="Zdjęcie box modelu z podziałem na content, padding, border, margin">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </section>

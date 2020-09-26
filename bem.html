@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="bem.html">BEM</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="bem.html">BEM</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     BEM.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Tworzymy klasy wyobrażając sobie części strony internetowej jako bloki. Bloki nazywamy dając im klasy.
                 Poszczególne elementy bloku mają też tą samą nazwę klasy co blok plus po dwóch dolnych myślnikach
                 dodatkową nazwę. Modyfikator dodajemy powtarzając klasę, dwoma myślniki i unikalną nazwę dla elementu. W
@@ -28,8 +28,8 @@
                 W pliku CSS przenosimy hierarchię z HTML-a, najlepiej w kolejności alfabetycznej, trzymając bloki
                 oddzielnie aby łatwo odnajdywać poszczególne elementy.
             </p>
-            <footer>
-                <img src="bem.jpg" alt="Zdjęcie ciastek z podziałem na blok element mofifier">
+            <footer class="article__footer">
+                <img class="article__picture" src="bem.jpg" alt="Zdjęcie ciastek z podziałem na blok element mofifier">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>

@@ -9,24 +9,24 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="stylowanie-pod.html">Stylowanie</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="stylowanie-pod.html">Stylowanie</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">Stylowanie za pomocą klas, specyficzność dobre i złe praktyki we frontend-e.</h1>
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">Stylowanie za pomocą klas, specyficzność dobre i złe praktyki we frontend-e.</h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Nauczyłem się że stosowania atrybutów style, id do stylowania elementów. Atrybuty style, id nie są
                 dobrą praktyką i mogą powodować wiele chaosu przy zmianie hierarchi kodu html. Nie stosować
                 polecenia important. Prawidłowym użyciem stylowania jest stosowanie klas do prawie wszystkich
                 elementów. Poznałem jak działa specyficzność w css. Ze specyficznością najlepiej nie przesadzać i
                 używać klas.
             </p>
-            <footer>
-                <img src="stylowanie-pod.png" alt="Zdjęcie z selektorem p w css" />
+            <footer class="article__footer">
+                <img class="article__picture" src="stylowanie-pod.png" alt="Zdjęcie z selektorem p w css" />
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>

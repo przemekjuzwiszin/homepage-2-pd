@@ -9,25 +9,26 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="pobieranie.html">Pobieranie</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="pobieranie.html">Pobieranie</a>
     </header>
-    <main>
-        <section>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <section class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Pobieranie zmian.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Wysyłamy zmiany ze sklonowanego repozytorium na serwer. W naszym repozytorium lokalnym robimy
                 porządki i usuwamy niepotrzebne gałęzie i remoty. Używamy komendy fetch i pull. Ściągamy zmiany ze
                 zdalnego repozytorium komendą fetch a następnie robimy pull i synchronizujemy dwie gałęzie w te same
                 miejsce. Podczas operacji pull mogą wystąpić konflikty.
             </p>
-            <footer>
-                <img src="pobieranie.jpg" alt="Zdjęcie pobierania zmian z komendą fetch i pull">
+            <footer class="article__footer">
+                <img class="article__picture" src="pobieranie.jpg"
+                    alt="Zdjęcie pobierania zmian z komendą fetch i pull">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </section>

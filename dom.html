@@ -9,25 +9,26 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="dom.html">DOM</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="dom.html">DOM</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     DOMowe przedszkole.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Poznaj DOM czyli Document Object Model. Pamiętaj że DOM to wszystko co widzisz w devtoolsach
                 przeglądarki. Przeglądarka renderuje kod i gotowy kod to DOM.Korzystaj z DOMu za pomocą metod
                 querySelector, querySelectorAll, innerHTML. Używaj BEMa do oznaczania elementów używanych przez JS.
                 Dopisuj do BEMa modyfikator (--js). Dobieraj się do elementów używając JS za pomocą warstwy DOMu.
             </p>
-            <footer>
-                <img src="dom.jpg" alt="Grafika monitora z napisem dom i trzema ikonami pliki, ołówek, edytor kodu">
+            <footer class="article__paragraph">
+                <img class="article__picture" src="dom.jpg"
+                    alt="Grafika monitora z napisem dom i trzema ikonami pliki, ołówek, edytor kodu">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>

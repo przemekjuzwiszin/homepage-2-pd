@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,30 +9,35 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="git_index.html">Index</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="git_index.html">Index</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Git index.
                 </h1>
             </header>
-            <p>
-                Index pomaga w codziennej pracy. Dzięki temu mechanizmowi możemy dokładnie doprecyzować, co chcemy zacommitować. Index to przestrzeń pomiędzy working copy a commitem. Tworzymy zmiany, małe, spójne commity, zbliżone odpowiedzialnością. Nie łączymy zmian funkcjonalności naszego systemu ze śmieciowymi zmianami ponieważ utrudniają pracę. Wchodzimy w dwa nowe tryby gita interactive i patch. Poznajemy pojęcie hunk, SRP i TDD. Dzielimy zmiany na osobne, konkretne commity.
+            <p class="article__paragraph">
+                Index pomaga w codziennej pracy. Dzięki temu mechanizmowi możemy dokładnie doprecyzować, co chcemy
+                zacommitować. Index to przestrzeń pomiędzy working copy a commitem. Tworzymy zmiany, małe, spójne
+                commity, zbliżone odpowiedzialnością. Nie łączymy zmian funkcjonalności naszego systemu ze śmieciowymi
+                zmianami ponieważ utrudniają pracę. Wchodzimy w dwa nowe tryby gita interactive i patch. Poznajemy
+                pojęcie hunk, SRP i TDD. Dzielimy zmiany na osobne, konkretne commity.
             </p>
-            <footer>
-                <img src="git_index.jpg" alt="Zdjęcie działania mechanizmu indexu w gicie">
+            <footer class="article__footer">
+                <img class="article__picture" src="git_index.jpg" alt="Zdjęcie działania mechanizmu indexu w gicie">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>
     </main>
-    <footer class="footer"> 
+    <footer class="footer">
         Strona domowa Przemka Juzwiszin, która powstała dzięki udziale w szkoleniu: Co ten frontend? Szkolenie trwa
         12 tydodni.
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>

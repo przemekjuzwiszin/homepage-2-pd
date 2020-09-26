@@ -9,20 +9,25 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="prace-pod.html">Prace</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="prace-pod.html">Prace</a>
     </header>
-    <main>
-        <section>
-            <header>
-                <h1 class="articleHeading">Prace domowe tydzień 3.</h1>
+    <main class="main__article">
+        <section class="article">
+            <header class="article__heading">
+                <h1 class="article__title">Prace domowe tydzień 3.</h1>
             </header>
-            <p>
-                Nauczyłem się jak korzystać z Trello, śledzić postępy metodą kanban, zakładać nowe zadania. Zastosowałem znaczniki artykułów do każdego z plików, dodałem zdjęcia, wstawiłem linki między stronami. Pracowałem z validatorem kodu i używałem formatowania w VSC. Dodawałem klasy do elementów w HTML-u do wszystkich plików. Stworzyłem jeden plik ze stylami do wszystkich stron. Rozwiązałem labirynt w terminalu windows. Dodałem skrypty do wszystkich stron i stworzyłem swój pierwszy plik JS.
+            <p class="article__paragraph">
+                Nauczyłem się jak korzystać z Trello, śledzić postępy metodą kanban, zakładać nowe zadania. Zastosowałem
+                znaczniki artykułów do każdego z plików, dodałem zdjęcia, wstawiłem linki między stronami. Pracowałem z
+                validatorem kodu i używałem formatowania w VSC. Dodawałem klasy do elementów w HTML-u do wszystkich
+                plików. Stworzyłem jeden plik ze stylami do wszystkich stron. Rozwiązałem labirynt w terminalu windows.
+                Dodałem skrypty do wszystkich stron i stworzyłem swój pierwszy plik JS.
             </p>
-            <footer>
-                <img src="prace-pod.png" alt="Grafika pokazująca kartkę papieru z napisem praca domowa po angielsku" />
+            <footer class="article__footer">
+                <img class="article__picture" src="prace-pod.png"
+                    alt="Grafika pokazująca kartkę papieru z napisem praca domowa po angielsku" />
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </section>
@@ -33,4 +38,5 @@
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>

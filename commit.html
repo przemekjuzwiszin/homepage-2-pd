@@ -9,26 +9,26 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="commit.html">Commit</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="commit.html">Commit</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Commit messages.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Stosuj commit messages według odpowiednich rekomendacji. Linia pierwsza powinna mieć tylko 72 znaki
                 ponieważ programy graficzne też domyślnie korzystają z tych rekomendacji. Commit messages jest bardziej
                 czytelne i wygodniej się to przegląda. W commit messages używać trybu rozkazującego, a najlepszą
                 praktyką jest stosowanie się do konwencji w danym projekcie. W nowych projektach zastanowić się jaki
                 sposób jest dla nas wygodniejszy think for yourself.
             </p>
-            <footer>
-                <img src="commit.jpg"
+            <footer class="article__footer">
+                <img class="article__picture" src="commit.jpg"
                     alt="Grafika logo Gita, koperta z listem i wielki napis how to write Git commit messages">
                 Autorem jest Przemek Juzwiszin.
             </footer>

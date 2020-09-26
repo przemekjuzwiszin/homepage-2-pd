@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="wszystko.html">Wszystko</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="wszystko.html">Wszystko</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Wszystko o konfiguracji Gita. (prawie wszystko :-)
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Konfiguracja czyli zwykłe pliki tekstowe, których Git używa do ustawień. Na przykładzie adresu email,
                 tworzymy repozytorium w katalogu z projektami do pracy. Przeprowadzamy konfigurację aby w katalogu z
                 pracą, Git używał naszego emaila służbowego a do pozostałych projektów emaila prywatnego. W Gicie mamy
@@ -29,8 +29,8 @@
                 zapisać konfigurację i zacommitować na głównej gałęzi master dla wszystkich programistów. Robimy wtedy
                 jedną zmianę konfiguracji do całego repozytorium od początku pracy do końca projektu.
             </p>
-            <footer>
-                <img src="wszystko.jpg" alt="Grafika trybów i klucza">
+            <footer class="article__footer">
+                <img class="article__picture" src="wszystko.jpg" alt="Grafika trybów i klucza">
                 Autorem jest Przemek Juzwiszin
             </footer>
         </article>

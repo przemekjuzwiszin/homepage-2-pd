@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="czyszczenie.html">Czyszczenie</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="czyszczenie.html">Czyszczenie</a>
     </header>
-    <main>
-        <article>
-            <header>
-                <h1 class="articleHeading">
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Czyszczenie working copy.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 W tej lekcji zajmiemy się czyszczeniem czyli odwracaniem zmian które wykonaliśmy w plikach obecnych w
                 naszym working copy. Operacja na dwóch rodzajach plików, śledzonych przez gita i nowo utworzonych, które
                 nie są śledzone przez gita. Dowiemy się również, dlaczego opcja schowka w gicie, nie jest rekomendowanym
@@ -28,8 +28,9 @@
                 nazwie work in progress, przerwać pracę i można później do nich wrócić, usuwając commita i przywracając
                 pliki z powrotem do working copy.
             </p>
-            <footer>
-                <img src="czyszczenie.jpg" alt="Zdjęcie trzech przestrzenie working copy, indexu i repozytorium">
+            <footer class="footer">
+                <img class="picture" src="czyszczenie.jpg"
+                    alt="Zdjęcie trzech przestrzenie working copy, indexu i repozytorium">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>
