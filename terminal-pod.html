@@ -9,22 +9,23 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="terminal-pod.html">Terminal</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="terminal-pod.html">Terminal</a>
     </header>
-    <main>
-        <section>
-            <header>
-                <h1 class="articleHeading">Terminal.</h1>
+    <main class="main__article">
+        <section class="article">
+            <header class="article__heading">
+                <h1 class="article__title">Terminal.</h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Poznałem jak działa terminal w środowisku Mac, Linux i Window. Jak wywoływać terminal. Zastosowanie
                 komend tekstowych, poruszanie się po katalogach, tworzenie folderów oraz uruchamianie VSC z poziomu
                 wiersza poleceń w danym katalogu.
             </p>
-            <footer>
-                <img src="terminal-pod.png" alt="Zdjęcie wiersza poleceń windows, czarne tło i białe literki"/>
+            <footer class="article__footer">
+                <img class="article__picture" src="terminal-pod.png"
+                    alt="Zdjęcie wiersza poleceń windows, czarne tło i białe literki" />
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </section>
@@ -35,4 +36,5 @@
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>
