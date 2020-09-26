@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <header class="link">
-        <a href="index.html">Strona główna</a>
-        <a href="workflow.html">Workflow</a>
+    <header class="header">
+        <a class="header__link" href="index.html">Strona główna</a>
+        <a class="header__link" href="workflow.html">Workflow</a>
     </header>
-    <main>
-        <article>
-            <header class="articleHeading">
-                <h1>
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
                     Workflow - praca lokalna.
                 </h1>
             </header>
-            <p>
+            <p class="article__paragraph">
                 Workflow to sposób pracy, dzięki któremu można dodawać nowe zmiany, zachowując przejrzystą historię
                 projektu. Dobre praktyki to unikać commitowania bezpośrednio do master, używać no fast-forward merge, bo
                 może to pozytywnie wpłynąć na czytelność projektu. W trybie workflow tworzymy nową gałąź, robimy zmiany,
@@ -28,8 +28,8 @@
                 wtedy czytelna i bardziej zrozumiała. Przed każdym zadaniem typu workflow stosować zasadę think before
                 you code.
             </p>
-            <footer>
-                <img src="workflow.jpg" alt="Zdjęcie trybu pracy workflow na branchach">
+            <footer class="article__footer">
+                <img class="article__picture" src="workflow.jpg" alt="Zdjęcie trybu pracy workflow na branchach">
                 Autorem jest Przemek Juzwiszin.
             </footer>
         </article>
