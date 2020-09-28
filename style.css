@@ -13,6 +13,7 @@ body {
 
 .header__link {
 	color: yellowgreen;
+	text-decoration: none;
 }
 
 .main {
