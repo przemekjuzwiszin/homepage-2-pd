@@ -13,7 +13,7 @@ console.log(header);
 const mini = document.querySelector('.about__paragraph-js');
 console.log(mini.innerHTML);
 
-mini.innerHTML = 'Pozdro JS!';
+mini.innerHTML = `Nazywam się ${name} i mam ${age} lata`;
 
 const paragraphs = document.querySelectorAll('p');
 console.log(paragraphs);
