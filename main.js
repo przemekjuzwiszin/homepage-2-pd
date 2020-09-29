@@ -9,3 +9,6 @@ console.log('Miło Cię widzieć, skoro tu zaglądasz, nie jest to przypadek. Id
 
 const header = document.querySelector('.main__heading');
 console.log(header);
+
+const paragraphs = document.querySelectorAll('p');
+console.log(paragraphs);
