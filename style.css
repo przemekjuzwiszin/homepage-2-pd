@@ -2,13 +2,26 @@ body {
 	background: #fefefe;
 }
 
-.header {}
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	background: #fff;
+}
 
 .header__link {
 	color: yellowgreen;
+	text-decoration: none;
 }
 
-.main {}
+.main {
+	width: 100%;
+	max-width: 700px;
+	margin: 32px auto;
+	padding-top: 50px;
+}
 
 .main__header {}
 
@@ -26,9 +39,14 @@ body {
 
 .about__paragraph {}
 
-.about__link {}
+.about__link {
+	color: #028090;
+	text-decoration: none;
+}
 
-.diary {}
+.diary {
+	padding-top: 50px;
+}
 
 .diary__header {
 	color: midnightblue;
@@ -41,11 +59,22 @@ body {
 	color: indigo;
 }
 
+.diary__title-color{
+color: #AA1155;
+}
+
 .diary__paragraph {}
 
-.diary__link {}
+.diary__link {
+	color: #E49273;
+	text-decoration: none;
+}
 
-.main__article {}
+.main__article {
+	width: 100%;
+	max-width: 700px;
+	margin: 36px auto;
+}
 
 .article {}
 
@@ -63,4 +92,15 @@ body {
 
 .footer {
 	color: rgb(0, 26, 255);
+	width: 100%;
+	max-width: 700px;
+	margin: 45px auto;
+}
+
+.top {
+	bottom: 10px;
+	right: 10px;
+	position: fixed;
+	color:#1A936F;
+	text-decoration: none;
 }
