@@ -60,6 +60,7 @@ body {
 
 .diary__link {
 	color: #E49273;
+	text-decoration: none;
 }
 
 .main__article {
