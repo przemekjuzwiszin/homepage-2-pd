@@ -41,6 +41,7 @@ body {
 
 .about__link {
 	color: #028090;
+	text-decoration: none;
 }
 
 .diary {}
