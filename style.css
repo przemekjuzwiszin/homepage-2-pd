@@ -39,6 +39,8 @@ body {
 
 .about__paragraph {}
 
+.about__paragraph-mini {}
+
 .about__link {
 	color: #028090;
 	text-decoration: none;
