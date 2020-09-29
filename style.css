@@ -39,7 +39,9 @@ body {
 
 .about__paragraph {}
 
-.about__link {}
+.about__link {
+	color: #028090;
+}
 
 .diary {}
 
