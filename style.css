@@ -44,7 +44,9 @@ body {
 	text-decoration: none;
 }
 
-.diary {}
+.diary {
+	padding-top: 50px;
+}
 
 .diary__header {
 	color: midnightblue;
