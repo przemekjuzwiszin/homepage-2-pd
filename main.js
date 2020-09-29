@@ -12,3 +12,4 @@ console.log(header);
 
 const paragraphs = document.querySelectorAll('p');
 console.log(paragraphs);
+console.log(paragraphs[3]);
