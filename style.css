@@ -58,7 +58,9 @@ body {
 
 .diary__paragraph {}
 
-.diary__link {}
+.diary__link {
+	color: #E49273;
+}
 
 .main__article {
 	width: 100%;
