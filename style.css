@@ -59,6 +59,10 @@ body {
 	color: indigo;
 }
 
+.diary__title-color{
+color: #AA1155;
+}
+
 .diary__paragraph {}
 
 .diary__link {
