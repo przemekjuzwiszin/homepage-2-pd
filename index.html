@@ -65,6 +65,7 @@
 				Kim jestem?
 			</h2>
 			<p class="about__paragraph">
+				<img src="pj.jpg.png" alt="Zdjęcie autora strony" class="about__picture">
 				Witajcie! Na co dzień wykonuję lekcję z kursu na temat frontendu autorstwa Maćka Korsana. Kiedyś byłem
 				kucharzem i postanowiłem zmienić branże na IT. W przyszłości chcę zostać programistą a to co teraz
 				widzisz jest moją pierwszą stroną internetową wykonywaną
@@ -78,7 +79,7 @@
 				<br />
 				<a class="about__link" href="#pamiętniczek">Przejdź do pamiętniczka</a>
 			</p>
-			<p class="about__paragraph about__paragraph-mini about__paragraph-js">Testuję modyfikator</p>
+			<p class="about__paragraph about__paragraph-mini about__paragraph-js"></p>
 		</section>
 		<section class="diary" id="pamiętniczek">
 			<h2 class="diary__header">
@@ -702,21 +703,33 @@
 				<h3 class="diary__title diary__title-color">
 					Analiza historii.
 				</h3>
+				<p class="diary__paragraph">
+					Przydadzą Ci się trzy komendy głównie do wyszukiwania i analizowania historii w Gicie. Git blame do
+					znajdowania autor zmiany. Git gui blame pokazuje plik kolorując sekcję. Opcjami lepszymi może być
+					komenda git log -S wyszukuje informację o commitach o interesującej nas treści. Git log
+					--pretty-oneline
+					pokażę całe id commitów i nazwy w bardzo przejrzysty sposób. Wiele funkcji do analizy historii jest
+					dostępnych w Gicie. Warto o nich wiedzieć i zapoznać się z dokumentacją Gita.
+				</p>
 			</section>
+		<section class="diary__section">
+			<h3 class="diary__title diary__title-color">
+				Bug hunting.
+			</h3>
 			<p class="diary__paragraph">
-				Przydadzą Ci się trzy komendy głównie do wyszukiwania i analizowania historii w Gicie. Git blame do
-				znajdowania autor zmiany. Git gui blame pokazuje plik kolorując sekcję. Opcjami lepszymi może być
-				komenda git log -S wyszukuje informację o commitach o interesującej nas treści. Git log --pretty-oneline
-				pokażę całe id commitów i nazwy w bardzo przejrzysty sposób. Wiele funkcji do analizy historii jest
-				dostępnych w Gicie. Warto o nich wiedzieć i zapoznać się z dokumentacją Gita.
+				Naucz się pracy w Gicie w trybie bisect. Git znajduje commita ze zmianą której nie chcemy. Używając
+				trybu bisect mówimy Gitowi w którym momencie nastąpiła dobra i zła zmiana. Używając algorytmu Git
+				wyszukuje informacje, segregując commity w krokach na podstawie naszych odpowiedzi “good” i “bad”. Na
+				koniec tego trybu zostanie wyświetlony commit zawierający dodaną zmianę w systemie którego poszukujemy.
+				Potężne narzędzie, szczególnie gdy pracujemy metodą Single Responsibility Principle.
 			</p>
 		</section>
-
+	</section>
 	</main>
 	<footer class="footer">
 		Strona domowa Przemka Juzwiszin, która powstała dzięki udziale w szkoleniu: Co ten frontend? Szkolenie trwa
 		12 tydodni.
-		<br/>
+		<br />
 		<a href="#top" class="top">Na górę</a>
 	</footer>
 	<script src="main.js"></script>
