@@ -90,7 +90,9 @@ color: #AA1155;
 	color: #0496FF
 }
 
-.article__paragraph {}
+.article__paragraph {
+	line-height: 24px;
+}
 
 .article__footer {}
 
