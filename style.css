@@ -58,7 +58,9 @@ body {
 	font-size: 35px;
 }
 
-.diary__section {}
+.diary__section {
+	padding: 16px;
+}
 
 .diary__title {
 	color: indigo;
