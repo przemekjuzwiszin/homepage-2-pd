@@ -67,6 +67,7 @@ color: #AA1155;
 
 .diary__paragraph {
 	line-height: 24px;
+	margin: 0;
 }
 
 .diary__link {
