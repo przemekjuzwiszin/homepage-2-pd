@@ -39,6 +39,7 @@ body {
 
 .about__paragraph {
 	font-size: 20px;
+	padding: 16px;
 }
 
 .about__paragraph-mini {}
