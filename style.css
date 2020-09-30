@@ -74,8 +74,8 @@ body {
 	color: indigo;
 }
 
-.diary__title-color{
-color: #AA1155;
+.diary__title-color {
+	color: #AA1155;
 }
 
 .diary__paragraph {
@@ -120,7 +120,7 @@ color: #AA1155;
 
 .top {
 	bottom: 10px;
-	color:#1A936F;
+	color: #1A936F;
 	position: fixed;
 	right: 10px;
 	text-decoration: none;
