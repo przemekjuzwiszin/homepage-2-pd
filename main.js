@@ -11,9 +11,12 @@ const header = document.querySelector('.main__heading-js');
 console.log(header);
 
 const mini = document.querySelector('.about__paragraph-js');
-console.log(mini.innerHTML);
-
-mini.innerHTML = `Nazywam się ${name} i mam ${age} lata`;
+if(mini){
+    console.log(mini.innerHTML);
+    mini.innerHTML = `Nazywam się ${name} i mam ${age} lata`; 
+}else{
+    console.log('else');
+}
 
 const paragraphs = document.querySelectorAll('p');
 console.log(paragraphs);
