@@ -3,12 +3,12 @@ body {
 }
 
 .header {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	box-sizing: border-box;
 	background: #fff;
+	box-sizing: border-box;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .header__link {
