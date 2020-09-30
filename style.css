@@ -17,10 +17,10 @@ body {
 }
 
 .main {
-	width: 100%;
 	max-width: 700px;
 	margin: 32px auto;
 	padding-top: 50px;
+	width: 100%;
 }
 
 .main__header {}
