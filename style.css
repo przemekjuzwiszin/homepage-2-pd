@@ -65,7 +65,9 @@ body {
 color: #AA1155;
 }
 
-.diary__paragraph {}
+.diary__paragraph {
+	line-height: 24px;
+}
 
 .diary__link {
 	color: #E49273;
