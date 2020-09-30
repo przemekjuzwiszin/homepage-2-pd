@@ -37,7 +37,9 @@ body {
 	font-size: 35px;
 }
 
-.about__paragraph {}
+.about__paragraph {
+	font-size: 20px;
+}
 
 .about__paragraph-mini {}
 
