@@ -43,7 +43,11 @@ body {
 }
 
 .about__picture {
-
+	display: block;
+	float: left;
+	max-width: 100px;
+	margin: 0 16px 16px 0;
+	width: 100%;
 }
 
 .about__paragraph-mini {}
