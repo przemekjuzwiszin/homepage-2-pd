@@ -724,6 +724,14 @@
 				Potężne narzędzie, szczególnie gdy pracujemy metodą Single Responsibility Principle.
 			</p>
 		</section>
+		<section>
+			<h3>
+				Praca dla wielu klientów. Pliki binarne i hooks.
+			</h3>
+			<p>
+				Git nie sprawdzi Ci się w pracy dla wielu klientów na jednym masterze. Problem nie jest po stronie Gita lecz w znajomości inżynierii oprogramowania. Git obsługuje pliki binarne lecz głównie w mniejszych projektach. Duże pliki binarne w pracy z Gitem nie sprawdzą się, szczególnie gdy jest ich bardzo dużo, repozytoria będą ogromne. Praca z Gitem będzie wolniejsza dlatego lepiej wykorzystać LFS które przechowuje pliki binarne a w Gicie są tylko wskaźniki do zdalnego serwera. Ostatnim zagadnieniem jest mechanizm haków który można użyć nie tylko w gicie, np można napisać skrypt który nie pozwoli zrobić pusha na serwer.
+			</p>
+		</section>
 	</section>
 	</main>
 	<footer class="footer">
