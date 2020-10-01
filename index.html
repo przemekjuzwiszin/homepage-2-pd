@@ -712,27 +712,35 @@
 					dostępnych w Gicie. Warto o nich wiedzieć i zapoznać się z dokumentacją Gita.
 				</p>
 			</section>
-		<section class="diary__section">
-			<h3 class="diary__title diary__title-color">
-				Bug hunting.
-			</h3>
-			<p class="diary__paragraph">
-				Naucz się pracy w Gicie w trybie bisect. Git znajduje commita ze zmianą której nie chcemy. Używając
-				trybu bisect mówimy Gitowi w którym momencie nastąpiła dobra i zła zmiana. Używając algorytmu Git
-				wyszukuje informacje, segregując commity w krokach na podstawie naszych odpowiedzi “good” i “bad”. Na
-				koniec tego trybu zostanie wyświetlony commit zawierający dodaną zmianę w systemie którego poszukujemy.
-				Potężne narzędzie, szczególnie gdy pracujemy metodą Single Responsibility Principle.
-			</p>
+			<section class="diary__section">
+				<h3 class="diary__title diary__title-color">
+					Bug hunting.
+				</h3>
+				<p class="diary__paragraph">
+					Naucz się pracy w Gicie w trybie bisect. Git znajduje commita ze zmianą której nie chcemy. Używając
+					trybu bisect mówimy Gitowi w którym momencie nastąpiła dobra i zła zmiana. Używając algorytmu Git
+					wyszukuje informacje, segregując commity w krokach na podstawie naszych odpowiedzi “good” i “bad”.
+					Na
+					koniec tego trybu zostanie wyświetlony commit zawierający dodaną zmianę w systemie którego
+					poszukujemy.
+					Potężne narzędzie, szczególnie gdy pracujemy metodą Single Responsibility Principle.
+				</p>
+			</section>
+			<section class="diary__section">
+				<h3 class="diary__title diary__title-color">
+					Praca dla wielu klientów. Pliki binarne i hooks.
+				</h3>
+				<p class="diary__paragraph">
+					Git nie sprawdzi Ci się w pracy dla wielu klientów na jednym masterze. Problem nie jest po stronie
+					Gita lecz w znajomości inżynierii oprogramowania. Git obsługuje pliki binarne lecz głównie w
+					mniejszych projektach. Duże pliki binarne w pracy z Gitem nie sprawdzą się, szczególnie gdy jest ich
+					bardzo dużo, repozytoria będą ogromne. Praca z Gitem będzie wolniejsza dlatego lepiej wykorzystać
+					LFS które przechowuje pliki binarne a w Gicie są tylko wskaźniki do zdalnego serwera. Ostatnim
+					zagadnieniem jest mechanizm haków który można użyć nie tylko w gicie, np można napisać skrypt który
+					nie pozwoli zrobić pusha na serwer.
+				</p>
+			</section>
 		</section>
-		<section class="diary__section">
-			<h3 class="diary__title diary__title-color">
-				Praca dla wielu klientów. Pliki binarne i hooks.
-			</h3>
-			<p class="diary__paragraph">
-				Git nie sprawdzi Ci się w pracy dla wielu klientów na jednym masterze. Problem nie jest po stronie Gita lecz w znajomości inżynierii oprogramowania. Git obsługuje pliki binarne lecz głównie w mniejszych projektach. Duże pliki binarne w pracy z Gitem nie sprawdzą się, szczególnie gdy jest ich bardzo dużo, repozytoria będą ogromne. Praca z Gitem będzie wolniejsza dlatego lepiej wykorzystać LFS które przechowuje pliki binarne a w Gicie są tylko wskaźniki do zdalnego serwera. Ostatnim zagadnieniem jest mechanizm haków który można użyć nie tylko w gicie, np można napisać skrypt który nie pozwoli zrobić pusha na serwer.
-			</p>
-		</section>
-	</section>
 	</main>
 	<footer class="footer">
 		Strona domowa Przemka Juzwiszin, która powstała dzięki udziale w szkoleniu: Co ten frontend? Szkolenie trwa
