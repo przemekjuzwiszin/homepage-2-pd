@@ -27,14 +27,12 @@ body {
 
 .main__heading {
 	color: tomato;
-	font-size: 40px;
 }
 
 .about {}
 
 .about__header {
 	color: #1460aa;
-	font-size: 35px;
 }
 
 .about__paragraph {
@@ -63,7 +61,6 @@ body {
 
 .diary__header {
 	color: #046e8f;
-	font-size: 35px;
 }
 
 .diary__section {
