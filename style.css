@@ -19,7 +19,9 @@ body {
 	padding: 0;
 }
 
-.navigation__item {}
+.navigation__item {
+	display: inline;
+}
 
 .navigation__link {
 	color: yellowgreen;
