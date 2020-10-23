@@ -12,6 +12,15 @@ body {
 	width: 100%;
 }
 
+.navigation {}
+
+.navigation__list {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation__item {}
+
 .navigation__link {
 	color: yellowgreen;
 	text-decoration: none;
