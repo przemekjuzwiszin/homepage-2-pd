@@ -118,6 +118,7 @@ body {
 .main__article {
 	max-width: 700px;
 	margin: 36px auto;
+	padding: 26px;
 	width: 100%;
 }
 
