@@ -1,5 +1,6 @@
 body {
-	background: #fefefe;
+	background: linear-gradient(284deg, rgba(249,200,2,1) 93%, rgba(249,200,2,1) 93%, rgba(227,6,19,1) 95%, rgba(45,34,65,1) 96%);
+	min-height: 100vh;
 }
 
 .header {
