@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-	background: #fff;
+	background: linear-gradient(284deg, rgba(227,6,19,1) 0%, rgba(249,200,2,1) 10%, rgba(45,34,65,1) 11%);;
 	box-sizing: border-box;
 	left: 0;
 	position: fixed;
