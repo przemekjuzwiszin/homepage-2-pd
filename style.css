@@ -84,6 +84,7 @@ body {
 
 .diary__link {
 	color: #92374D;
+	font-style: italic;
 	text-decoration: none;
 }
 
