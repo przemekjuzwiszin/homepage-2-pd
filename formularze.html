@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html">Strona główna</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="formularze.html">Formularze</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
+                    Formularze.
+                </h1>
+            </header>
+            <p class="article__paragraph">
+                Formularze są wykorzystywane do wysyłania danych tekstowych lub plików binarnych, np zdjęcia
+                użytkownika i jego danych tekstowych, np haseł, wieku, adresu email itp. Głównym znacznikiem w który
+                wrzucamy pola formularza jest znacznik 'form'. W znaczniku ‘form’ możemy określić adres docelowy
+                formularza, metodę, rodzaj wysyłanych plików. Formularz składa się z dodatkowych znaczników m.in.
+                ‘input’ oraz ‘label’ do których dodajemy atrybuty zmieniające ich wartości i funkcjonalności. Dzięki
+                różnym typom można wyróżnić, np checklisty, radio listy wybór jednej z wielu dostępnych opcji.
+                Kolejnym krokiem w tworzeniu formularza jest walidacja danych. Użytkownik będzie mógł wysłać
+                formularz dopiero po wypełnieniu pól poprawnie według wzoru. Pola formularza są wyposażone we wzory
+                nazywane wyrażeniami nieregularnymi. HTML pozwala nam na umieszczenie w polach formularza walidacji
+                za pomocą samego kodu HTML. Należy jednak pamiętać że walidacja musi być zdefiniowana po stronie
+                backendu. Walidacja i ogólnie formularz może mieć dodaną właściwość ‘required’. Required wymaga od
+                użytkownika wpisanie w dane pole informacji aby wysłać formularz i przejść do dalszej części strony
+                internetowej.
+            </p>
+            <footer class="article__footer">
+                <img class="article__picture" src="formularze.png"
+                    alt="Grafika laptopa z widocznym na ekranie formularzem">
+                Autorem jest Przemek Juzwiszin.
+            </footer>
+        </article>
+    </main>
+    <footer class="footer">
+        Strona domowa Przemka Juzwiszin, która powstała dzięki udziale w szkoleniu: Co ten frontend? Szkolenie trwa
+        12 tygodni.
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
