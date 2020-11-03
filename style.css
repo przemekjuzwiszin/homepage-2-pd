@@ -43,6 +43,7 @@ body {
 .navigation__link {
 	color: #09814A;
 	margin: 6px;
+	font-weight: bold;
 	text-decoration: none;
 }
 
