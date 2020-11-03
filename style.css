@@ -153,8 +153,9 @@ body {
 
 .top {
 	bottom: 10px;
-	color: #1A936F;
+	color: #09814A;
 	position: fixed;
 	right: 10px;
+	font-weight: bold;
 	text-decoration: none;
 }
