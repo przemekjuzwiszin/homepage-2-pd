@@ -94,7 +94,9 @@ body {
 
 .diary__git {
 	color: #AA1155;
+	display: flex;
 	font-size: 36px;
+	justify-content: center;
 }
 
 .diary__header {
