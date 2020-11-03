@@ -92,6 +92,11 @@ body {
 	padding-top: 50px;
 }
 
+.diary__git {
+	color: #AA1155;
+	font-size: 36px;
+}
+
 .diary__header {
 	color: #11151C;
 }
