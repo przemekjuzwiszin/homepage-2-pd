@@ -114,6 +114,7 @@ body {
 .diary__link {
 	color: #0D2C54;
 	font-style: italic;
+	font-weight: bold;
 	text-decoration: none;
 }
 
