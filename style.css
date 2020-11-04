@@ -7,12 +7,14 @@ html {
 }
 
 body {
-	background: linear-gradient(284deg, rgba(249,200,2,1) 93%, rgba(249,200,2,1) 93%, rgba(227,6,19,1) 95%, rgba(45,34,65,1) 96%);
+	background: rgb(48, 30, 83);
+	background: linear-gradient(98deg, rgba(48, 30, 83, 1) 1%, rgba(227, 6, 19, 1) 4%, rgba(255, 224, 105, 1) 6%);
 	min-height: 100vh;
 }
 
 .header {
-	background: linear-gradient(284deg, rgba(227,6,19,1) 0%, rgba(249,200,2,1) 10%, rgba(45,34,65,1) 11%);;
+	background: rgb(48, 30, 83);
+	background: linear-gradient(0deg, rgba(48, 30, 83, 1) 3%, rgba(227, 6, 19, 1) 5%, rgba(255, 224, 105, 1) 9%);
 	box-sizing: border-box;
 	left: 0;
 	position: fixed;
@@ -39,8 +41,9 @@ body {
 }
 
 .navigation__link {
-	color: yellowgreen;
+	color: #09814A;
 	margin: 6px;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -54,13 +57,13 @@ body {
 .main__header {}
 
 .main__heading {
-	color: tomato;
+	color: #0D2C54;
 }
 
 .about {}
 
 .about__header {
-	color: #1460aa;
+	color: #11151C;
 }
 
 .about__paragraph {
@@ -79,7 +82,9 @@ body {
 .about__paragraph-mini {}
 
 .about__link {
-	color: #028090;
+	color: #0D2C54;
+	font-style: italic;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -87,8 +92,15 @@ body {
 	padding-top: 50px;
 }
 
+.diary__git {
+	color: #AA1155;
+	display: flex;
+	font-size: 36px;
+	justify-content: center;
+}
+
 .diary__header {
-	color: #046e8f;
+	color: #11151C;
 }
 
 .diary__section {
@@ -110,8 +122,9 @@ body {
 }
 
 .diary__link {
-	color: #92374D;
+	color: #0D2C54;
 	font-style: italic;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -127,7 +140,7 @@ body {
 .article__heading {}
 
 .article__title {
-	color: #0496FF
+	color: #11151C;
 }
 
 .article__paragraph {
@@ -139,7 +152,7 @@ body {
 .article__picture {}
 
 .footer {
-	color: #537A5A;
+	color: #11151C;
 	max-width: 700px;
 	margin: 45px auto;
 	width: 100%;
@@ -147,8 +160,9 @@ body {
 
 .top {
 	bottom: 10px;
-	color: #1A936F;
+	color: #09814A;
 	position: fixed;
 	right: 10px;
+	font-weight: bold;
 	text-decoration: none;
 }
