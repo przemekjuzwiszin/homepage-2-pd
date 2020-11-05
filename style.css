@@ -47,6 +47,10 @@ body {
 	text-decoration: none;
 }
 
+.navigation__link--color {
+	color: #750D37;
+}
+
 .main {
 	max-width: 700px;
 	margin: 32px auto;
