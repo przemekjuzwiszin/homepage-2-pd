@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html">Strona Główna</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="grid.html">Grid</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__article">
+        <article class="article">
+            <header class="article__heading">
+                <h1 class="article__title">
+                    Grid.
+                </h1>
+            </header>
+            <p class="article__paragraph">
+                Grid jest narzędziem do budowania layoutów. Element opakowujemy w grid container i tworzymy tabelę
+                opartą na wierszach i kolumnach. Tabela posiada komórki, grid line, grid areas. Łatwy sposób do
+                budowania layoutów przy użyciu nowej jednostki fr która sprawia że element dostaje ułamek wolnej
+                przestrzeni w danej kolumnie. Grid pozwala również na budowanie layoutów przypisując tabelę do
+                odpowiednio zdefiniowanych obszarów kodu HTML. Tworzymy header na górze, po środku content, odstęp i
+                nawigację a pod spodem umieszczamy footer. Cała zabawa z gridem odbywa się poprzez dodanie display:
+                grid do naszego grid containera. Dzieci znajdujące się w kontenerze możemy umieszczać w dowolnym
+                miejscu w gridzie. Grid zawsze jest prostokątem a flexbox wraz z gridem doskonale się uzupełniają.
+                Grid używamy do layoutów a flexbox do pozycjonowania tego co jest w środku grida.
+            </p>
+            <footer class="article__footer">
+                <img class="article__picture" src="grid.png" alt="Grafika tabeli z podziałem na grid">
+                Autorem jest Przemek Juzwiszin.
+            </footer>
+        </article>
+    </main>
+    <footer class="footer">
+        Strona domowa Przemka Juzwiszin, która powstała dzięki udziale w szkoleniu: Co ten frontend? Szkolenie trwa
+        12 tygodni.
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
