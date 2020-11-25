@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="hamburger.html">Hamburger</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main__article">
+      <article class="article">
+        <header class="article__heading">
+          <h1 class="article__title">Hamburger menu.</h1>
+        </header>
+        <p class="article__paragraph">
+          W tej części pamiętniczka stworzymy najprostszego hamburgera za pomocą
+          dodania znacznika button do nawigacji. Hamburger musi dobrze wyglądać
+          na urządzeniach mobilnych. Stworzenie hamburgera wymaga kilku rzeczy.
+          Pierwsza rzecz kod html z nawigacją i dodanie znacznika button z
+          symbolem hamburgera ☰. Druga rzecz polega na zdefiniowaniu stylów za
+          pomocą media queries na mobile i desktop. Trzecia rzecz kod js który
+          będzie pobierał elementy i dodawał klasy po przyciśnięciu przycisku
+          hamburgera. Za pomocą JavaScriptu tworzymy funkcję strzałkową i
+          wpisujemy zdarzenia jakie mają się wykonać. Użyjemy kilku metod
+          document.querySelector, addEventListener, classList do wykonania menu.
+          Hamburger na urządzeniach mobilnych otwiera i chowa menu nawigacji po
+          kliknięciu w przycisk. Należy również umieścić w button atrybut
+          aria-label z informacją o funkcji przycisku dla użytkowników
+          korzystających z czytników elektronicznych.
+        </p>
+        <footer class="article__footer">
+          <img
+            class="article__picture"
+            src="hamburger.png"
+            alt="Grafika na której są pokazane ikony które wykorzystuje się do tworzenia hamburger menu"
+          />
+          Autorem jest Przemek Juzwiszin.
+        </footer>
+      </article>
+    </main>
+    <footer class="footer">
+      Strona domowa Przemka Juzwiszin, która powstała dzięki udziale w
+      szkoleniu: Co ten frontend? Szkolenie trwa 12 tygodni.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
