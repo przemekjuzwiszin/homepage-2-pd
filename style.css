@@ -19,6 +19,11 @@ body {
 	grid-row-gap: 16px;
 }
 
+.grid__git {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
 .header {
 	background: rgb(48, 30, 83);
 	background: linear-gradient(0deg, rgba(48, 30, 83, 1) 3%, rgba(227, 6, 19, 1) 5%, rgba(255, 224, 105, 1) 9%);
