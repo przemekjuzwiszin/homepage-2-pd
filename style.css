@@ -208,7 +208,9 @@ body {
   .grid {
     grid-template-columns: 1fr;
   }
-
+.top {
+  background-color: white;
+}
   .about__link {
     background-color: white;
     border-radius: 6px;
