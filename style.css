@@ -211,6 +211,11 @@ body {
    .grid {
      grid-template-columns: 1fr;
    }
+
+.about__link {
+  background-color: white;
+}
+
    .grid__git {
      grid-template-columns: 1fr;
    }
