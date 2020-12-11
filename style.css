@@ -205,6 +205,9 @@ body {
 }
 
 @media (max-width: 640px) {
+  .body {
+    background: #caf0ff;
+  }
   .grid {
     grid-template-columns: 1fr;
   }
