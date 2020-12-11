@@ -205,6 +205,9 @@ body {
 }
 
 @media (max-width: 640px) {
+  .diary__link {
+    background-color: #b6626f71;
+  }
    .grid {
      grid-template-columns: 1fr;
    }
