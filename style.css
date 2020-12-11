@@ -205,18 +205,17 @@ body {
 }
 
 @media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__link {
+    background-color: white;
+  }
   .diary__link {
     background-color: #b6626f71;
   }
-   .grid {
-     grid-template-columns: 1fr;
-   }
-
-.about__link {
-  background-color: white;
-}
-
-   .grid__git {
-     grid-template-columns: 1fr;
-   }
+  .grid__git {
+    grid-template-columns: 1fr;
+  }
 }
