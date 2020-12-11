@@ -208,4 +208,7 @@ body {
    .grid {
      grid-template-columns: 1fr;
    }
+   .grid__git {
+     grid-template-columns: 1fr;
+   }
 }
