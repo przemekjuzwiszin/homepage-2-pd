@@ -211,6 +211,7 @@ body {
 
   .about__link {
     background-color: white;
+    border-radius: 6px;
   }
   .diary__link {
     background-color: #b6626f71;
