@@ -208,6 +208,9 @@ body {
   .body {
     background: #caf0ff;
   }
+  .footer {
+    font-style: italic;
+  }
   .grid {
     grid-template-columns: 1fr;
   }
