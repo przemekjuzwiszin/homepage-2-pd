@@ -203,3 +203,9 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media (max-width: 640px) {
+   .grid {
+     grid-template-columns: 1fr;
+   }
+}
