@@ -219,4 +219,7 @@ body {
   .grid__git {
     grid-template-columns: 1fr;
   }
+  .navigation__link--return {
+    background-color: white;
+  }
 }
