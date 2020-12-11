@@ -228,6 +228,6 @@ body {
     grid-template-columns: 1fr;
   }
   .navigation__link--return {
-    background-color: white;
+    background-color: #FFDA85;
   }
 }
