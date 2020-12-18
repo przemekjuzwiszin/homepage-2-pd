@@ -207,6 +207,8 @@ body {
 @media (max-width: 640px) {
   .about {
     color: #09814a;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
   }
   .body {
     background: #caf0ff;
