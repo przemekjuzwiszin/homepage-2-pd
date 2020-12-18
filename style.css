@@ -208,7 +208,7 @@ body {
   .about {
     color: #09814a;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
   }
   .body {
     background: #caf0ff;
@@ -221,11 +221,11 @@ body {
     grid-template-columns: 1fr;
   }
   .header {
-    background: #EBF8FF  ;
+    background: #ebf8ff;
   }
-.top {
-  background-color: white;
-}
+  .top {
+    background-color: white;
+  }
   .about__link {
     background-color: white;
     border-radius: 6px;
@@ -237,6 +237,6 @@ body {
     grid-template-columns: 1fr;
   }
   .navigation__link--return {
-    background-color: #FFDA85;
+    background-color: #ffda85;
   }
 }
