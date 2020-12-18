@@ -205,6 +205,9 @@ body {
 }
 
 @media (max-width: 640px) {
+  .about {
+    color: #09814a;
+  }
   .body {
     background: #caf0ff;
   }
