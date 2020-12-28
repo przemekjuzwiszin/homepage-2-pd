@@ -211,6 +211,9 @@ body {
 }
 
 @media (max-width: 640px) {
+  .header {
+    min-height: 48px;
+  }
   .navigation__list {
     display: none;
   }
