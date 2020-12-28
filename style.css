@@ -210,14 +210,14 @@ body {
   }
 }
 
-@media (max-width: 640px ) {
+@media (max-width: 640px) {
   .navigation__list {
     display: none;
   }
   .navigation__list--visible {
     display: flex;
   }
-.navigation__item {
-  margin: 4px;
-}
+  .navigation__item {
+    margin: 4px;
+  }
 }
