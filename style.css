@@ -223,5 +223,8 @@ body {
   .navigation__switcher {
     background: none;
     border: none;
+    position: absolute;
+    right: 16px;
+    top: 16px;
   }
 }
