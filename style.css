@@ -203,3 +203,9 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media (max-width: 640px ) {
+  .navigation__list {
+    display: none;
+  }
+}
