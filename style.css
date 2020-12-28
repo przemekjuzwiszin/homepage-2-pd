@@ -220,4 +220,7 @@ body {
   .navigation__item {
     margin: 4px;
   }
+  .navigation__switcher {
+    border: none;
+  }
 }
