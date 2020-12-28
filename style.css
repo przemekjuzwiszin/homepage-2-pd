@@ -208,4 +208,7 @@ body {
   .navigation__list {
     display: none;
   }
+.navigation__item {
+  margin: 4px;
+}
 }
