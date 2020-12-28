@@ -221,6 +221,7 @@ body {
     margin: 4px;
   }
   .navigation__switcher {
+    background: none;
     border: none;
   }
 }
