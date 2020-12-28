@@ -204,6 +204,12 @@ body {
   text-decoration: none;
 }
 
+@media (min-width: 641px) {
+  .navigation__switcher {
+    display: none;
+  }
+}
+
 @media (max-width: 640px ) {
   .navigation__list {
     display: none;
