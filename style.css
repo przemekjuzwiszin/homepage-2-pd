@@ -214,6 +214,9 @@ body {
   .header {
     min-height: 48px;
   }
+  .navigation {
+    margin: 48px auto;
+  }
   .navigation__list {
     display: none;
   }
