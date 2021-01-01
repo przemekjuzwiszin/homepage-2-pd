@@ -203,3 +203,40 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media (max-width: 640px) {
+  .about {
+    color: #09814a;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .body {
+    background: #caf0ff;
+  }
+  .footer {
+    font-style: italic;
+    font-weight: bold;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    background: #ebf8ff;
+  }
+  .top {
+    background-color: white;
+  }
+  .about__link {
+    background-color: white;
+    border-radius: 6px;
+  }
+  .diary__link {
+    background-color: #b6626f71;
+  }
+  .grid__git {
+    grid-template-columns: 1fr;
+  }
+  .navigation__link--return {
+    background-color: #ffda85;
+  }
+}
