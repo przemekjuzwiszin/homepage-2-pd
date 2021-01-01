@@ -211,20 +211,46 @@ body {
 }
 
 @media (max-width: 640px) {
+  .about {
+    color: #09814a;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .body {
+    background: #caf0ff;
+  }
+  .footer {
+    font-style: italic;
+    font-weight: bold;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
   .header {
+    background: #ebf8ff;
     min-height: 48px;
+  }
+  .top {
+    background-color: white;
+  }
+  .about__link {
+    background-color: white;
+    border-radius: 6px;
+  }
+  .diary__link {
+    background-color: #b6626f71;
+  }
+  .grid__git {
+    grid-template-columns: 1fr;
   }
   .navigation {
     margin: 48px auto;
   }
-  .navigation__list {
-    display: none;
-  }
-  .navigation__list--visible {
-    display: flex;
-  }
   .navigation__item {
     margin: 4px;
+  }
+  .navigation__list {
+    display: none;
   }
   .navigation__switcher {
     background: none;
@@ -233,5 +259,11 @@ body {
     right: 16px;
     top: 0;
     font-size: xx-large;
+  }
+  .navigation__list--visible {
+    display: flex;
+  }
+  .navigation__link--return {
+    background-color: #ffda85;  
   }
 }
