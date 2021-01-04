@@ -204,6 +204,12 @@ body {
   text-decoration: none;
 }
 
+@media (min-width: 641px) {
+  .navigation__switcher {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .about {
     color: #09814a;
@@ -222,6 +228,7 @@ body {
   }
   .header {
     background: #ebf8ff;
+    min-height: 48px;
   }
   .top {
     background-color: white;
@@ -236,7 +243,27 @@ body {
   .grid__git {
     grid-template-columns: 1fr;
   }
+  .navigation {
+    margin: 48px auto;
+  }
+  .navigation__item {
+    margin: 4px;
+  }
+  .navigation__list {
+    display: none;
+  }
+  .navigation__switcher {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    font-size: xx-large;
+  }
+  .navigation__list--visible {
+    display: flex;
+  }
   .navigation__link--return {
-    background-color: #ffda85;
+    background-color: #ffda85;  
   }
 }
