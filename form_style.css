@@ -10,8 +10,13 @@ html {
 
 body {
     background-color: #FFBE0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .form {
   max-width: 600px;
+  width: 100%;
 }
