@@ -11,3 +11,7 @@ html {
 body {
     background-color: #FFBE0B;
 }
+
+.form {
+  max-width: 600px;
+}
