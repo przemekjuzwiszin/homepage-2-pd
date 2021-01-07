@@ -24,3 +24,7 @@ body {
 .navigation-form__link {
   text-decoration: none;
 }
+
+.navigation-form__item {
+  list-style: none;
+}
