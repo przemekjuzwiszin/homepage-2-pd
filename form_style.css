@@ -9,11 +9,11 @@ html {
 }
 
 body {
-    background-color: #FFBE0B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+  background-color: #ffbe0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .form {
