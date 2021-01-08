@@ -18,6 +18,11 @@ body {
   width: 100%;
 }
 
+.form-header {
+  display: flex;
+  justify-content: center;
+}
+
 .navigation-form {
   display: flex;
   justify-content: flex-start;
