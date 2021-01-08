@@ -10,15 +10,17 @@ html {
 
 body {
   background-color: #ffbe0b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
 }
 
 .form {
   max-width: 600px;
   width: 100%;
+}
+
+.navigation-form {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .navigation-form__link {
