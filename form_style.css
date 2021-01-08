@@ -14,8 +14,11 @@ body {
 }
 
 .form {
-  max-width: 600px;
+  display: flex;
+  margin: auto;
   width: 100%;
+  flex-direction: column;
+  max-width: 600px;
 }
 
 .form-header {
