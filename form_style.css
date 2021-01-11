@@ -23,6 +23,7 @@ body {
   background-color: #f9c802;
   border-radius: 40px;
   font-family: monospace;
+  font-size: 14px;
   flex-direction: column;
   margin-bottom: 20px;
   max-width: 600px;
