@@ -21,6 +21,10 @@ body {
   max-width: 600px;
 }
 
+.form-main {
+  padding-top: 100px;
+}
+
 .form-header {
   display: flex;
   justify-content: center;
@@ -28,6 +32,9 @@ body {
 
 .navigation-form {
   display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #e30613;
   justify-content: flex-start;
 }
 
