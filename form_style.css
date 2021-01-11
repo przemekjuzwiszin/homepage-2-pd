@@ -22,6 +22,7 @@ body {
   width: 100%;
   background-color: #f9c802;
   border-radius: 40px;
+  font-family: monospace;
   flex-direction: column;
   margin-bottom: 20px;
   max-width: 600px;
