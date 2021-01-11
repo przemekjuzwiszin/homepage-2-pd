@@ -18,56 +18,56 @@
     <main>
       <header class="form-header">Formularz kontaktowy</header>
       <form action="https://dev.cotenfrontend.pl" method="POST" class="form">
-        <p>
+        <p class="form-name">
           <label for="name">Imię</label><br />
           <input type="text" name="name" id="name" />
         </p>
-        <p>
+        <p class="form-surname">
           <label for="surname">Nazwisko</label><br />
           <input type="text" name="surname" id="surname" />
         </p>
-        <p>
+        <p class="form-file">
           <label for="file">Wyślij zdjęcie, którym chcesz się pochwalić</label
           ><br />
           <input type="file" name="myFile" id="file" />
         </p>
-        <fieldset>
-          <legend>
+        <fieldset class="form-fieldset">
+          <legend class="form-fieldset__legend">
             Twoja ocena, tego formularza jest dla mnie bardzo ważna 🧐
           </legend>
-          <p>
+          <p class="form-fieldset__radio">
             <input type="radio" name="radio" id="radio1" />
             <label for="radio1">1 😱</label>
           </p>
-          <p>
+          <p class="form-fieldset__radio">
             <input type="radio" name="radio" id="radio2" />
             <label for="radio2">2 😲</label>
           </p>
-          <p>
+          <p class="form-fieldset__radio">
             <input type="radio" name="radio" id="radio3" />
             <label for="radio3">3 🤔</label>
           </p>
-          <p>
+          <p class="form-fieldset__radio">
             <input type="radio" name="radio" id="radio4" />
             <label for="radio4">4 😉</label>
           </p>
-          <p>
+          <p class="form-fieldset__radio">
             <input type="radio" name="radio" id="radio5" />
             <label for="radio5">5 😁</label>
           </p>
         </fieldset>
-        <p>
+        <p class="form-age">
           <label for="age">Wiek</label><br />
           <input type="number" name="age" id="age" />
         </p>
-        <p>
+        <p class="form-telephone">
           <label for="telephone">Numer telefonu</label><br />
           <input type="tel" name="telephone" id="telephone" />
         </p>
-        <p>
+        <p class="form-select">
           <label for="select">Proszę, pochwal się jak mnie znalazłeś?</label
           ><br />
-          <select name="mySelect" id="select">
+          <select class="form-select__option" name="mySelect" id="select">
             <option value="user selected Hosting pages">
               Serwisy hostujące
             </option>
@@ -77,14 +77,14 @@
             </option>
           </select>
         </p>
-        <p>
+        <p class="form-password">
           <label for="password"
             >Napisz mi swoje ulubione słowo lub takie słowo, które bardzo lubisz
             wymawiać.</label
           ><br />
           <input type="password" name="myPassword" id="password" />
         </p>
-        <p>
+        <p class="form-range">
           <label for="range">
             Powiedź ulubione słowo na głos. Fajne uczucie, prawda 💋?
             <br />Podziel się ze mną swoim szczęściem.</label
@@ -99,15 +99,15 @@
             id="range"
           />
         </p>
-        <p>
+        <p class="form-email">
           <label for="email">Email</label><br />
           <input type="email" name="email" id="email" />
         </p>
-        <p>
+        <p class="form-subject">
           <label for="subject">Temat</label><br />
           <input type="text" name="subject" id="subject" />
         </p>
-        <p>
+        <p class="form-textarea">
           <label for="textarea"></label>
           <textarea
             name="textarea"
@@ -115,11 +115,11 @@
             id="textarea"
           ></textarea>
         </p>
-        <p>
+        <p class="form-checkbox__robot">
           <input required type="checkbox" name="checkbox" id="checkbox1" />
           <label for="checkbox1">Nie jestem robotem.</label>
         </p>
-        <p>
+        <p class="form-checkbox__consent">
           <input required type="checkbox" name="checkbox" id="checkbox2" />
           <label for="checkbox2"
             >Wyrażam zgodę na przetwarzanie moich danych osobowych, zgodnie z
@@ -127,7 +127,7 @@
             (Dz. U. 2002 r. Nr 101 poz. 926, z późn. zm.)</label
           >
         </p>
-        <input type="submit" value="Send the form" />
+        <input class="form-send" type="submit" value="Send the form" />
       </form>
     </main>
   </body>
