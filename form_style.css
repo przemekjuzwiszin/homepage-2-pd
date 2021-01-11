@@ -14,9 +14,13 @@ body {
 }
 
 .form {
+  border: solid #2d2241 3px;
   display: flex;
   margin: auto;
+  padding: 16px;
   width: 100%;
+  background-color: #e30613;
+  border-radius: 40px;
   flex-direction: column;
   margin-bottom: 20px;
   max-width: 600px;
