@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-  background: rgb(48, 30, 83);
+  background: #F2F6D0;
   background: linear-gradient(
     0deg,
     rgba(48, 30, 83, 1) 3%,
