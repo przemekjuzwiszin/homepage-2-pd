@@ -47,5 +47,12 @@ body {
 }
 
 .navigation-form__item {
+  border: solid yellow 1px;
+  left: 2px;
+  padding: 0 6px;
+  position: fixed;
+  top: 5px;
+  background-color: #2d2241;
+  border-radius: 8px;
   list-style: none;
 }
