@@ -65,3 +65,7 @@ body {
   border-radius: 8px;
   list-style: none;
 }
+
+.form-send{
+  width: 110px;
+}
