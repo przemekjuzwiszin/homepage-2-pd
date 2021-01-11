@@ -67,5 +67,7 @@ body {
 }
 
 .form-send{
+  display: flex;
   width: 110px;
+  align-self: center;
 }
