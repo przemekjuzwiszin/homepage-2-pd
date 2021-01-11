@@ -27,7 +27,9 @@ body {
 
 .form-header {
   display: flex;
+  font-size: 32px;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .navigation-form {
