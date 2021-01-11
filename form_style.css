@@ -70,6 +70,7 @@ body {
 
 .form-send{
   display: flex;
-  width: 110px;
+  padding: 4px
+  width: 116px;
   align-self: center;
 }
