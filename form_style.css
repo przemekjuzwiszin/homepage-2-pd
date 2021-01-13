@@ -81,6 +81,10 @@ body {
   margin-bottom: 48px;
 }
 
+.form-checkbox__robot {
+  margin-bottom: 0;
+}
+
 .form-checkbox__consent {
   margin-bottom: 40px;
 }
