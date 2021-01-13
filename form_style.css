@@ -51,6 +51,7 @@ body {
   border-radius: 40px;
   font-family: monospace;
   font-size: 14px;
+  font-weight: bold;
   flex-direction: column;
   margin-bottom: 20px;
   max-width: 600px;
