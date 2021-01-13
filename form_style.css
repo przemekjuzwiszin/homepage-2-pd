@@ -77,6 +77,10 @@ body {
   margin-bottom: 20px;
 }
 
+.form-select {
+  margin-bottom: 48px;
+}
+
 .form-send {
   display: flex;
   padding: 4px;
