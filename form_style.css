@@ -83,10 +83,12 @@ body {
 }
 
 .form-checkbox__robot {
+  font-weight: normal;
   margin-bottom: 0;
 }
 
 .form-checkbox__consent {
+  font-weight: normal;
   margin-bottom: 40px;
 }
 
