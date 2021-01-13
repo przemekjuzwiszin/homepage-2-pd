@@ -81,6 +81,10 @@ body {
   margin-bottom: 48px;
 }
 
+.form-checkbox__consent {
+  margin-bottom: 40px;
+}
+
 .form-send {
   display: flex;
   padding: 4px;
