@@ -73,6 +73,10 @@ body {
   padding-bottom: 20px;
 }
 
+.form-fieldset {
+  margin-bottom: 20px;
+}
+
 .form-send {
   display: flex;
   padding: 4px;
