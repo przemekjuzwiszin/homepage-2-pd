@@ -87,7 +87,7 @@ body {
   background-color: crimson;
   border-radius: 10px;
   max-width: 700px;
-  padding-left: 26px;
+  padding: 4px 26px 4px 26px;
   text-decoration: none;
 }
 
