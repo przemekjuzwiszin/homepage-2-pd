@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #E9EB87;
+  background: #e9eb87;
   background: linear-gradient(
     98deg,
     rgba(48, 30, 83, 1) 1%,
@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-  background: #F2F6D0;
+  background: #f2f6d0;
   background: linear-gradient(
     0deg,
     rgba(48, 30, 83, 1) 3%,
@@ -275,6 +275,6 @@ body {
     display: flex;
   }
   .navigation__link--return {
-    background-color: #ffda85;  
+    background-color: #ffda85;
   }
 }
