@@ -282,5 +282,7 @@ body {
   .contact {
     color: white;
     background-color: lightskyblue;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 }
