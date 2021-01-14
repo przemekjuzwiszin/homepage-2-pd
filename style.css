@@ -81,6 +81,7 @@ body {
   border: black solid 1px;
   color: yellow;
   background-color: crimson;
+  border-radius: 10px;
   text-decoration: none;
 }
 
