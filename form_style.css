@@ -98,3 +98,9 @@ body {
   width: 116px;
   align-self: center;
 }
+
+@media (max-width: 640px) {
+  .form-main {
+    margin: 0px 8px 0px 8px;
+  }
+}
