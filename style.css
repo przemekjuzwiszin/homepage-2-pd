@@ -50,6 +50,7 @@ body {
 
 .navigation {
   margin: 32px auto;
+  margin-bottom: 0;
   max-width: 700px;
   width: 100%;
 }
