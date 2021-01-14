@@ -103,6 +103,9 @@ body {
    body {
     background-color: lightskyblue;
   }
+  .navigation-form {
+    background-color: white;
+  }
   .form-main {
     margin: 0px 8px 0px 8px;
   }
