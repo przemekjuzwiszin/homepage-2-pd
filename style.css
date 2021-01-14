@@ -78,6 +78,7 @@ body {
 }
 
 .contact {
+  border: black solid 1px;
   color: yellow;
   background-color: crimson;
   text-decoration: none;
