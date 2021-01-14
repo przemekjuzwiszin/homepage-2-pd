@@ -103,4 +103,7 @@ body {
   .form-main {
     margin: 0px 8px 0px 8px;
   }
+  .form-header {
+    margin-left: 48px;
+  }
 }
