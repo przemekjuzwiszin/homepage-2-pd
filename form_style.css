@@ -100,7 +100,7 @@ body {
 }
 
 @media (max-width: 640px) {
-   body {
+  body {
     background-color: lightskyblue;
   }
   .navigation-form {
