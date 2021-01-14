@@ -113,4 +113,7 @@ body {
     margin-left: 48px;
     text-shadow: 0px 0px 2px black;
   }
+  .form {
+    background-color: azure;
+  }
 }
