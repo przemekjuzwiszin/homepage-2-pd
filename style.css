@@ -82,10 +82,11 @@ body {
   border: black solid 1px;
   color: yellow;
   display: flex;
-  margin: 0 4px 39px 4px;
+  margin: 32px auto;
   justify-content: center;
   background-color: crimson;
   border-radius: 10px;
+  max-width: 700px;
   padding-left: 26px;
   text-decoration: none;
 }
