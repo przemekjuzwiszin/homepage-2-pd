@@ -89,7 +89,7 @@ body {
   border: black solid 1px;
   color: yellow;
   display: flex;
-  margin: 32px auto;
+  margin: 0 0 40px 8px;
   width: 100px;
   justify-content: center;
   background-color: crimson;
