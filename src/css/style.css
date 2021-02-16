@@ -77,6 +77,10 @@ body {
   text-decoration: none;
 }
 
+.navigation__link:hover {
+  text-decoration: underline;
+}
+
 .navigation__link--color {
   color: #750d37;
 }
