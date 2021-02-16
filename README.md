@@ -5,7 +5,7 @@
 
 # My first steps with frontend. 🏗
 
-Please visit my website: [First homepage Przemysława Juzwiszin](https://przemekjuzwiszin.github.io/homepage-2-pd/) 
+Please visit my website: [First homepage Przemysława Juzwiszin](https://przemekjuzwiszin.github.io/homepage-2-pd/src/content/) 
 
 
 ## To work on this page I used: 🛠
