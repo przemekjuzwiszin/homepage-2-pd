@@ -64,7 +64,10 @@ body {
 }
 
 .navigation__item {
+  color: #606060;
   display: inline;
+  margin: 6px;
+  font-weight: bold;
 }
 
 .navigation__link {
