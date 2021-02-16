@@ -227,8 +227,19 @@ body {
 }
 
 @media (min-width: 641px) {
-  .navigation__switcher {
+  .navigation__list {
     display: none;
+  }
+  .navigation__switcher {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    font-size: xx-large;
+  }
+  .navigation__list--visible {
+    display: flex;
   }
 }
 
