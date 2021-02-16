@@ -50,7 +50,7 @@ body {
 
 .navigation {
   margin: 32px auto;
-  margin-bottom: 0;
+  margin-bottom: 48px;
   max-width: 700px;
   width: 100%;
 }
@@ -64,7 +64,10 @@ body {
 }
 
 .navigation__item {
+  color: #606060;
   display: inline;
+  margin: 6px;
+  font-weight: bold;
 }
 
 .navigation__link {
@@ -72,6 +75,10 @@ body {
   margin: 6px;
   font-weight: bold;
   text-decoration: none;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
 }
 
 .navigation__link--color {
@@ -82,7 +89,7 @@ body {
   border: black solid 1px;
   color: yellow;
   display: flex;
-  margin: 32px auto;
+  margin: 0 0 40px 8px;
   width: 100px;
   justify-content: center;
   background-color: crimson;
@@ -95,7 +102,7 @@ body {
 .main {
   max-width: 700px;
   margin: 32px auto;
-  padding-top: 170px;
+  padding-top: 100px;
   width: 100%;
 }
 
@@ -220,8 +227,19 @@ body {
 }
 
 @media (min-width: 641px) {
-  .navigation__switcher {
+  .navigation__list {
     display: none;
+  }
+  .navigation__switcher {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    font-size: xx-large;
+  }
+  .navigation__list--visible {
+    display: flex;
   }
 }
 
@@ -284,8 +302,7 @@ body {
   .contact {
     color: white;
     background-color: lightskyblue;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin: -40px 8px 8px 8px;
     max-width: 120px;
   }
 }
